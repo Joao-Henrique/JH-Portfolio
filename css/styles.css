@@ -7,10 +7,11 @@
 
 .projectsRow {
     margin: auto;
-    max-width: 830px;
-    
+    max-width: 840px;
+    padding-top: 20vh;
+    text-align: center;
 }
 
-.col-sm-6 {
-    vertical-align: middle;
+.individualProject{
+    max-width: 280px;
 }
