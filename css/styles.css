@@ -1,14 +1,17 @@
-.projectsBackground {
-    background-color: rgb(0, 143, 136);
+.techTitle{
     padding-top: 2em;
     padding-bottom: 2em;
+}
+.projectsBackground {
+    background-color: rgb(0, 143, 136);
+    padding-top: 10em;
     height: 100vh;
 }
 
 .projectsRow {
     margin: auto;
     max-width: 840px;
-    padding-top: 20vh;
+    padding-top: 12vh;
     text-align: center;
 }
 
