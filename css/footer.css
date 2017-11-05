@@ -49,12 +49,12 @@ ul.social-network {
   .socialFooter {
     text-align: center;
     padding-top: 1em;
-    height: 100px;
+    height: 30px;
   }
   .authorFooter {
    color: black;
     text-align: center;
-    height: 100px;
+    height: 30px;
   }
   footer {
   width:100%;
@@ -74,13 +74,12 @@ ul.social-network {
     }
     .authorFooter {
       text-align: left;
-      padding-top: 1.4em;
+      padding-top: 1em;
     }
     footer {
       bottom:0;
-      height:30px;
       background: white;
-      padding-top: 20px;
+      height: 1px;
     }
     h6 {
       font-size: 16px;
