@@ -1,5 +1,5 @@
 h1 {
-    font-size: 50px;
+    font-size: 80px;
     color: white;
 }
 .techTitle{
@@ -14,7 +14,7 @@ h1 {
 .projectsRow {
     margin: auto;
     max-width: 1120px;
-    padding-top: 12vh;
+    padding-top: 10vh;
     text-align: center;
 }
 
@@ -27,3 +27,5 @@ h1 {
 	   -moz-box-shadow: 0 11px 6px -6px  rgb(75, 75, 75);
 	        box-shadow: 0 11px 6px -6px rgb(75, 75, 75);
 }
+
+
