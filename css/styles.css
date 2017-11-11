@@ -1,3 +1,6 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 h1 {
     font-size: 80px;
     color: white;
@@ -10,14 +13,12 @@ h1 {
     padding-top: em;
     height: 93vh;
 }
-
 .projectsRow {
     margin: auto;
     max-width: 1120px;
     padding-top: 10vh;
     text-align: center;
 }
-
 .individualProject{
     max-width: 280px;
 }
