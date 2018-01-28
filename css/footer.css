@@ -8,9 +8,6 @@
 h6 {
   font-size: 16px;
 }
-
-
-
 ul.social-network {
     list-style: none;
     display: inline;
@@ -58,22 +55,16 @@ ul.social-network li {
   -ms-transition: all 0.8s;
   transition: all 0.8s;
 }
-  
-  
-  
 
-  @media (min-width: 992px) { 
+
+
+
+  @media (min-width: 992px) {
     ul.social-network {
       float: right;
     }
     .authorFooter {
       text-align: left;
-      padding-top: 1em;
-    }
-    footer {
-      bottom:0;
-      background: white;
-      height: 1px;
     }
     h6 {
       font-size: 16px;

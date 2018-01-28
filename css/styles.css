@@ -9,9 +9,16 @@ h1 {
     padding-top: 6em;
 }
 .projectsBackground {
-    background-color: rgb(0, 143, 136);
-    padding-top: em;
     height: 93vh;
+}
+.frontEndProjectsBackground {
+    background-color: rgb(0, 143, 136);
+}
+.dataVizProjectsBackground {
+    background-color: rgb(236, 44, 60);
+}
+.backEndProjectsBackground {
+    background-color: rgb(29, 143, 0);
 }
 .projectsRow {
     margin: auto;
@@ -19,8 +26,18 @@ h1 {
     padding-top: 10vh;
     text-align: center;
 }
+.frontEndProjectsRow {
+    background-color: rgb(0, 143, 136);
+}
+.dataVizProjectsRow {
+    background-color: rgb(236, 44, 60);
+}
+.backEndProjectsRow {
+    background-color: rgb(29, 143, 0);
+}
 .individualProject{
     max-width: 280px;
+    margin:auto;
 }
 .thumbnail {
     margin-bottom:10px;
