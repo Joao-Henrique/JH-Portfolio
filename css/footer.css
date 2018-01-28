@@ -55,6 +55,11 @@ ul.social-network li {
   -ms-transition: all 0.8s;
   transition: all 0.8s;
 }
+footer{
+  height: 20vh;
+  background-color: lightseagreen;
+  padding-top: 5vh;
+}
 
 
 

@@ -1,24 +1,50 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url("../img/developer.png");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: 100vw;
+    background-attachment: fixed;
 }
 h1 {
-    font-size: 80px;
+    font-size: 4em;
+}
+h2 {
+    text-align: left;
+    text-align: center
+}
+.jumbotron {
+    margin-top:15vh;
+    background-color: black;
+    opacity: 0.7;
+}
+.mainTitle {
     color: white;
 }
-.techTitle{
+.subTitle {
+    color: lightseagreen;
+}
+.comment {
+    max-width: 500px;
+    margin-top:15vh;
+    margin-bottom: 15vh;
+    color: lightseagreen;
+}
+.techTitle {
     padding-top: 6em;
+    color: black;
 }
 .projectsBackground {
-    height: 93vh;
+    min-height: 100vh;
 }
 .frontEndProjectsBackground {
-    background-color: rgb(0, 143, 136);
+    background-color: lightseagreen;
 }
 .dataVizProjectsBackground {
-    background-color: rgb(236, 44, 60);
+    background-color: lightseagreen;
 }
 .backEndProjectsBackground {
-    background-color: rgb(29, 143, 0);
+    background-color: lightseagreen;
 }
 .projectsRow {
     margin: auto;
@@ -27,13 +53,13 @@ h1 {
     text-align: center;
 }
 .frontEndProjectsRow {
-    background-color: rgb(0, 143, 136);
+    background-color: lightseagreen;
 }
 .dataVizProjectsRow {
-    background-color: rgb(236, 44, 60);
+    background-color: lightseagreen;
 }
 .backEndProjectsRow {
-    background-color: rgb(29, 143, 0);
+    background-color: lightseagreen;
 }
 .individualProject{
     max-width: 280px;
