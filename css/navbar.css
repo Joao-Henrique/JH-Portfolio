@@ -5,7 +5,13 @@
   font-size: 2.5em;
   margin:1vh;
 }
+.navbar-default .navbar-brand {
+  color: white;
+}
 .navbar-nav {
   font-size: 1.5em;
   margin:1vh;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
 }

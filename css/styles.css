@@ -3,8 +3,11 @@ body {
     background-image: url("../img/developer.png");
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    background-size: 100vw;
+    background-size: 150vh;
     background-attachment: fixed;
+}
+nav {
+    color: white;
 }
 h1 {
     font-size: 4em;
@@ -17,7 +20,7 @@ h2 {
 .jumbotron {
     background-color: black;
     opacity: 0.8;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 .jumbotron h1 {
     color: white;
@@ -79,3 +82,19 @@ h2 {
 }
 
 
+
+@media (min-width: 768px) {
+    body {
+        background-size: 200vw;
+    }
+    .jumbotron {
+        margin-top: 20vh;
+    }
+}
+
+@media (min-width: 992px) {
+
+body {
+    background-size: 150vw;
+}
+}
