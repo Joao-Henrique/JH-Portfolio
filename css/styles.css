@@ -5,6 +5,7 @@ body {
     background-blend-mode: darken;
     background-size: 150vh;
     background-attachment: fixed;
+    text-align: center;
 }
 nav {
     color: white;
@@ -14,16 +15,20 @@ h1 {
     color: white;
 }
 h2 {
-    text-align: left;
-    text-align: center
+    text-align: center;
 }
 .jumbotron {
     background-color: black;
     opacity: 0.8;
-    margin-top: 10vh;
 }
 .jumbotron h1 {
     color: white;
+}
+.jumbotronInto {
+    margin-top: 10vh;
+}
+.jumbotronStory {
+    margin-top: 5vh;
 }
 .mainTitle {
     color: white;
@@ -31,11 +36,17 @@ h2 {
 .subTitle {
     color: lightseagreen;
 }
+.commentIntro {
+    max-width: 600px;
+    color: lightseagreen;
+    margin: auto;
+}
 .comment {
     max-width: 600px;
-    margin-top:10vh;
-    margin-bottom: 15vh;
     color: lightseagreen;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
 }
 .techTitle {
     color: black;
@@ -87,8 +98,11 @@ h2 {
     body {
         background-size: 200vw;
     }
-    .jumbotron {
+    .jumbotronInto {
         margin-top: 20vh;
+    }
+    .jumbotronStory {
+        margin-top: 15vh;
     }
 }
 
