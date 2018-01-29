@@ -8,15 +8,19 @@ body {
 }
 h1 {
     font-size: 4em;
+    color: white;
 }
 h2 {
     text-align: left;
     text-align: center
 }
 .jumbotron {
-    margin-top:15vh;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.8;
+    margin-top: 20vh;
+}
+.jumbotron h1 {
+    color: white;
 }
 .mainTitle {
     color: white;
@@ -25,25 +29,27 @@ h2 {
     color: lightseagreen;
 }
 .comment {
-    max-width: 500px;
-    margin-top:15vh;
+    max-width: 600px;
+    margin-top:10vh;
     margin-bottom: 15vh;
     color: lightseagreen;
 }
 .techTitle {
-    padding-top: 6em;
     color: black;
 }
 .projectsBackground {
     min-height: 100vh;
 }
 .frontEndProjectsBackground {
+    padding-top: 12vh;
     background-color: lightseagreen;
 }
 .dataVizProjectsBackground {
+    padding-top: 12vh;
     background-color: lightseagreen;
 }
 .backEndProjectsBackground {
+    padding-top: 12vh;
     background-color: lightseagreen;
 }
 .projectsRow {
